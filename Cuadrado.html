@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CUADRADITO DE COLORES</title>
+    <style>
+        .box {animation: change-background 4s linear infinite alternate;}
+        .box{
+            background: blue;
+            position: absolute;
+            left: 20rem;
+            top: 13rem;
+            height: 6rem;
+            width: 6rem;
+            animation: change-background 4s linear infinite alternate;
+        }
+        @keyframes change-background{
+            0%{ 
+                background: blue;
+            }
+            50% {
+                background: orange;
+            }
+            100%{
+                background: green;
+            }
+        }
+        @keyframes slidein{
+            from{
+                margin-left: 100%;
+                width: 200%;
+            }
+            to{margin-left: 0%;
+               width: 100%;}
+        }
+        @keyframes zoom{
+            0%{
+                transform: scale(1);
+            }
+            33%{
+                transform: scale(2);
+            }
+            66%{transform: scale(3);}
+            90%{
+                transform: scale(4);
+            }
+        }
+        .highlight{
+            animation: move-highlight 4s linear infinite alternate;
+            height: 1.75rem;
+            width: 12em;
+            background: rgba(100, 100, 100, 0.2);
+            position: absolute;
+            top: 4em;
+            left: 2em;
+        }
+        .bloque{
+            margin: 40px auto;
+            width: fit-content;
+        }
+        .bloque:hover{
+            animation: zoom 3s linear infinite;
+        }
+        p{
+            animation-duration: 3s;
+            animation-name: slidein;
+        }
+        pre{
+            line-height: 2;
+        }
+        @keyframes change-background{
+            0%{
+                background: blue;
+            }
+            50%{
+                background: orange;
+            }
+            100%{
+                background: green;
+            }
+        }
+        @keyframes move-highlight {
+            100%{
+                top: 17em;
+            }
+        }
+        @keyframes {
+            100% {top:17rem;}
+        }
+        .box {background: blue;
+            position: absolute;
+            left: 20rem;
+            top:13rem;
+            height: 6rem;
+            width: 6rem;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="bloque">Boa Tarde</h1>
+    <div class="box"></div>
+    <div class="highlight"></div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed mollitia inventore porro numquam magnam sapiente est provident accusamus exercitationem. Optio ex numquam, quaerat sapiente architecto quisquam eum sed saepe! Illum.</p>
+</body>
+</html>

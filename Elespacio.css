@@ -1,0 +1,286 @@
+nav { display: flex; margin-bottom: 5px; background-color: #c263f9; width: 100px; border: black 1px solid; margin: 2px; }
+}
+body {
+	background-image: url('https://ciencia.nasa.gov/wp-content/uploads/sites/2/2023/06/1-5000-exoplanets-lead-JPL.width-1320-jpg.webp?w=4096&format=png');
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica, Calibri, sans-serif;
+	color: #666;
+	background: #ffffff; 
+	font-size: 1em;
+	line-height: 1.5em;
+	text-decoration: none;
+	padding-top: 80px;
+}
+
+header{
+	display: flex;
+	justify-content: flex-end;
+	padding: 1rem;
+	background-color: #c263f9;
+	color: white;
+	text-decoration: none;
+	list-style: none;
+}
+.contenedor{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.contenedor ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.contenedor ul li{
+	display: inline-block;
+}
+.contenedor ul li a{
+	display: block;
+	padding: 0.5rem 1rem;
+	color: white;
+}
+.contenedor ul li a : hover{
+	background: #c263f9;
+}
+.logo{
+	display: flex;
+}
+.logo img{
+	height: 50px;
+}
+	nav ul {
+		margin: 0 auto;
+		padding: 0;
+		list-style: none;
+		padding-right: 20px;
+		background-color: #c263f9
+		!important;
+		position: fixed;
+		left: 0;
+		top: auto;
+		display: flex;
+		flex-direction: row;
+		color:white;
+		text-align: right;
+		justify-content: right;
+		left: 100%;
+	}
+	
+		nav ul li {
+			display: inline-block;
+			line-height: 80px;
+		}
+			
+			nav ul li a {
+				display: block;
+				padding: 0 10px;
+				text-decoration: none;
+				color: white;
+			}
+			
+				nav ul li a:hover {
+					background: #7231A7;
+				}
+
+#ulEspacio {
+	float: left;
+}
+	nav ul {
+		margin: 0 auto;
+		padding: 0;
+		list-style: none;
+		padding-right: 20px;
+		background-color: #c263f9
+		!important;
+		position: fixed;
+		left: 0;
+		top: auto;
+		display: flex;
+		flex-direction: column;
+		color:white;
+		text-align: right;
+	}
+	
+		nav ul li {
+			display: inline-block;
+			line-height: 80px;
+		}
+			
+			nav ul li a {
+				display: block;
+				padding: 0 10px;
+				text-decoration: none;
+				color: white;
+			}
+			
+				nav ul li a:hover {
+					background: #7231A7;
+				}
+nav.Encabezado a.activo{
+	color: #FF0000;
+	font-weight: bold;
+}
+#main-content {
+	background: white;
+	width: 90%;
+	max-width: 800px;
+	margin: 20px auto;
+	box-shadow: 0 0 10px rgba(0,0,0,.1);
+}
+
+	#main-content header,
+	#main-content .content {
+		padding: 40px;
+	}
+
+#main-footer {
+	background: #FFD6B7;
+	color: white;
+	text-align: center;
+	padding: 20px;
+	margin-top: 40px;
+}
+	#main-footer p {
+		margin: 0;
+	}
+	
+	#main-footer a {
+		color: white;
+	}
+.pie{background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+height: 70vh;
+margin: 0%;
+padding: 0%;
+bottom: 100%;
+box-sizing: border-box;}
+html {
+  min-height: 100%;
+  position: relative;
+}
+body {
+  margin: 0;
+  margin-bottom: 10px;
+}
+#container{
+	width: 1000px;
+	height: 700px;
+	margin: 30px auto;
+}
+p{
+	text-align: center;
+	width: 420px;
+	margin-left: auto;
+	margin-right: auto;
+	text-decoration: none;
+	color: white;
+}
+imgg{position: relative;}
+.contenedor-Imágenes{
+	display: flex;
+}
+.contenedor-Imágenes figure{
+	text-align: left;
+}
+.contenedor-Imágenes img{
+	width: 50%;
+	box-sizing: border-box;
+	margin-right: 10px;
+}
+.pie-de-página{
+	width: 100%;
+	background-color: #572975;
+}
+.pie-de-página .caja-1{
+	width: 100%;
+	max-width: 1200px;
+	margin: auto;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 50px;
+	padding: 45px 0px;
+}
+.pie-de-página .caja-1 .box figure{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.pie-de-página .caja-1 .box1 figure img{
+	width: 250px;
+}
+.pie-de-página .caja-1 .box1 h2{
+	color: #FFF;
+	margin-bottom: 10px;
+	font-size: 20px;
+}
+.pie-de-página .caja-1 .box1 p{
+	color: white;
+	margin-bottom: 10px;
+	text-align: center;
+	justify-content: center;
+	text-decoration: none;
+	color: white;
+}
+.pie-de-página .caja-1 .box figure img{
+	width: 200px;
+}
+.pie-de-página .caja-1 .redes-sociales a{
+	display: inline-block;
+	text-decoration: none;
+	width: 70px;
+	height: 40px;
+	line-height: 50px;
+	justify-content: space-between;
+	color: white;
+	margin-right: 50px;
+	background-color: #572364;
+	text-align: center;
+	transition: all 300ms ease;
+}
+.pie-de-página .caja-1 .redes-sociales a:hover{
+	color: white;
+}
+.pie-de-página .caja-1 .box2 h2{
+	color: white;
+}
+.pie-de-página .caja-2{
+	background-color: #5b0672;
+	padding: 15px 10px;
+	text-align: center;
+	color: white;
+}
+.pie-de-página .caja-2 small{
+	font-size: 15px;
+}
+@media screeen and (max-width: 768px){
+	.pie-de-página .caja-1{
+		width: 100%;
+		grid-template-columns: repeat(1, 1fr);
+		grid-gap: 30px;
+		padding: 35px 0px;
+	}
+	img{
+		width: 100%;
+		height: 100%;
+	}
+}
+@media screen and (min-width: 769px) and (max-width: 1024px){
+		img{
+			width: 80%;
+			height: 80%;
+		}
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+  iframe {
+    width: 400px;
+  }
+}
+@media only scree n and (max-width: 767px){
+  iframe{
+    width: 300px;
+  }
+}

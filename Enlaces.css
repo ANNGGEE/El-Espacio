@@ -1,0 +1,58 @@
+header{
+	text-align: center;
+	font-family: ;
+	background-color: #c263f9;
+	height: 100px;
+	text-size-adjust: 100px;
+	justify-content: center;
+	margin: 0;
+}
+ul li{
+	display: inline-block;
+}
+ul li a{
+	display: block;
+	padding: 0.5rem 1rem;
+}
+header svg{
+	justify-content: right;
+	float: right;
+	bottom: auto;
+    position: relative;
+    top: -50px;
+    left: -2%;
+}
+header h1{
+  position: relative;
+  top: 30px;
+  font-family: "Concert One", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  opacity: .6;
+}
+h2, a{
+	color: white;
+	text-align: center;
+}
+@media screeen and (max-width: 768px){
+	img{
+		width: 100%;
+		height: 100%;
+	}
+}
+@media screen and (min-width: 769px) and (max-width: 1024px){
+		img{
+			width: 80%;
+			height: 80%;
+		}
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+  iframe {
+    width: 400px;
+  }
+}
+@media only screen and (max-width: 767px){
+  iframe{
+    width: 300px;
+  }
+}

@@ -1,0 +1,160 @@
+header{
+	text-align: center;
+	font-family: ;
+	background-color: #c263f9;
+	height: 100px;
+	text-size-adjust: 100px;
+	justify-content: center;
+	margin: 0;
+}
+ul li{
+	display: inline-block;
+}
+ul li a{
+	display: block;
+	padding: 0.5rem 1rem;
+}
+header svg{
+	justify-content: right;
+	float: right;
+	bottom: auto;
+    position: relative;
+    top: -50px;
+    left: -2%;
+}
+header h1{
+  position: relative;
+  top: 30px;
+  font-family: "Concert One", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  opacity: .6;
+}
+.bi-globe-asia-australia{
+	size: 50px;
+	text-align: left;
+}
+svg{
+	text-align: right;
+}
+img{
+	float: right;
+	width: 30%;
+    height: 200px;
+    margin: 15px 0;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+}
+ 
+img:hover {
+    height: 300px;
+    width: 500px;
+    margin-left: -50px;
+}
+}
+.contenedor:hover .img {-webkit-transform:scale(1.3);transform:scale(1.3);}
+.contenedor {overflow:hidden;}
+footer{
+	border: 2px solid black;
+	background-color: white;
+	position: relative;
+	bottom: -650px;
+	text-align: center;
+}
+footer a{
+	color: black;
+}
+p{
+	text-align: center;
+	padding-top: 50px;
+	color: white;
+	margin: 0.5rem;
+	line-height: 1.4em;
+}
+button{
+	position: relative;
+	margin: 0 auto;
+	text-align: center;
+}
+.button::after{
+	content: "";
+	width: 1px;
+	height: 1px;
+	background: none;
+	position: absolute;
+	z-index: 1;
+	top: 50%;
+	left: 50%;
+	transition: .3s ease-in-out all;
+	border-radius: 100px;
+	transform-origin: center;
+}
+.button:hover::after{
+	transform: scale(400);
+	background: darkred;
+}
+.button:hover{
+	background: red;
+}
+a button{
+	text-decoration:none;
+	font-weight: 600;
+	font-size: 20px;
+	padding-top:15px;
+	padding-bottom:15px;
+	padding-left:40px;
+	padding-right:40px;
+	border-width: 3px;
+	border-style: outset;
+	border-color: navajowhite;
+}
+contenedor{
+	text-align: right;
+}
+p{
+	text-align: left;
+	padding: auto;
+}
+article{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+width: 600px;
+height: 400px;
+#contenido { «width: 1024px; margin-left: 7%; }
+}
+.container img{
+width: 100%;
+}
+.container p{
+position: absolute;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+.párrafos2{
+	width: 750px;
+	text-align: right;
+}
+@media screeen and (max-width: 768px){
+	img{
+		width: 100%;
+		height: 100%;
+	}
+}
+@media screen and (min-width: 769px) and (max-width: 1024px){
+		img{
+			width: 80%;
+			height: 80%;
+		}
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+  iframe {
+    width: 400px;
+  }
+}
+@media only screen and (max-width: 767px){
+  iframe{
+    width: 300px;
+  }
+}

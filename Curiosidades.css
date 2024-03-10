@@ -1,0 +1,114 @@
+header{
+	text-align: center;
+	font-family: ;
+	background-color: #c263f9;
+	height: 100px;
+	text-size-adjust: 100px;
+	justify-content: center;
+	margin: 0;
+}
+ul li{
+	display: inline-block;
+}
+ul li a{
+	display: block;
+	padding: 0.5rem 1rem;
+}
+header svg{
+	justify-content: right;
+	float: right;
+	bottom: auto;
+    position: relative;
+    top: -50px;
+    left: -2%;
+}
+header h1{
+  position: relative;
+  top: 30px;
+  font-family: "Concert One", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  opacity: .6;
+}
+.bi-globe-asia-australia{
+	size: 50px;
+	text-align: left;
+}
+svg{
+	text-align: right;
+}
+img{
+	float: right;
+	width: 30%;
+    height: 200px;
+    margin: 15px 0;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+}
+li{
+	color: white;
+	text-align: center;
+	margin: 0;
+	padding-top: 50px;
+	line-height: 2em;
+}
+button{
+	position: relative;
+	margin: 0 auto;
+	text-align: center;
+}
+.button::after{
+	content: "";
+	width: 1px;
+	height: 1px;
+	background: none;
+	position: absolute;
+	z-index: 1;
+	top: 50%;
+	left: 50%;
+	transition: .3s ease-in-out all;
+	border-radius: 100px;
+	transform-origin: center;
+}
+.button:hover::after{
+	transform: scale(400);
+	background: darkred;
+}
+.button:hover{
+	background: red;
+}
+a button{
+	text-decoration:none;
+	font-weight: 600;
+	font-size: 20px;
+	padding-top:15px;
+	padding-bottom:15px;
+	padding-left:40px;
+	padding-right:40px;
+	border-width: 3px;
+	border-style: outset;
+	border-color: navajowhite;
+}
+@media screeen and (max-width: 768px){
+	img{
+		width: 100%;
+		height: 100%;
+	}
+}
+@media screen and (min-width: 769px) and (max-width: 1024px){
+		img{
+			width: 80%;
+			height: 80%;
+		}
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+  iframe {
+    width: 400px;
+  }
+}
+@media only screen and (max-width: 767px){
+  iframe{
+    width: 300px;
+  }
+}
